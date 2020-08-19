@@ -4,12 +4,35 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/firebase.js
+/firebase.txt
 
 # testing
 /coverage
 
 # production
 /build
+/.firebase
+
+### Firebase ###
+.idea
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+
+
+# service-account-credentials.json
+/package-lock.json
 
 # misc
 .DS_Store
